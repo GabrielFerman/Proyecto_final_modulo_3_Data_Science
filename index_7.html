@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Lista</title>
+</head>
+<body class="lista_body">
+    <header class="lista_header">
+        <div class="lista_container_header">
+            <h1 class="lista_header_h1" >Bienvenido a la plataforma en linea de Lombard</h1>
+            <p class="lista_header_p">En esta seccion podras ver la lista de todos los alumnos inscritos en la institucion y podras inscribirte a las materias que se ofrecen en el plantel</p>
+            <nav>
+                <ul class="menu_ul_plataforma">
+                    <li class="menu_li"><a class="menu_a" href="index.html">Home</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_1.html">Plantel</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_2.html">Vision</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_3.html">Planes y costos</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_4.html">Plataforma</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img class="lista_header_img" src="Lombard/lombardescudorojo.jpg" alt="Escudo Lombard">
+    </header>
+    <section class="lista_section">
+        <nav>
+            <ul class="menu_ul">
+                <li class="menu_li"><a class="menu_a" href="index_4.html">Registrar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_5.html">Consultar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_6.html">Calificaciones</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_7.html">Listas</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_8.html">Inscripciones</a></li>
+            </ul>
+        </nav>
+        <h3>Dale clik en la lista que quieras consultar</h3>
+        <div class="lista_section_container">
+            <div class="lista_info_container_menu">
+                <button class="lista_button_menu" onclick="print_list_general()">General</button>
+                <button class="lista_button_menu" onclick="print_list_esp()">Español</button>
+                <button class="lista_button_menu" onclick="print_list_mat()">Matematicas</button>
+                <button class="lista_button_menu" onclick="print_list_his()">Historia</button>
+                <button class="lista_button_menu" onclick="print_list_civ_y_eti()">Civ y Eti</button>
+                <button class="lista_button_menu" onclick="print_list_bio()">Biologia</button>
+                <button class="lista_button_menu" onclick="print_list_ing()">Ingles</button>
+                <button class="lista_button_menu" onclick="print_list_fran()">Frances</button>
+                <button class="lista_button_menu" onclick="print_list_edu_fis()">Edu. Fis.</button>
+                <button class="lista_button_menu" onclick="print_list_art()">Arte</button>
+                <button class="lista_button_menu" onclick="print_list_quim()">Quimica</button>
+                <button class="lista_button_menu" onclick="print_list_fis()">Fisica</button>    
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno1"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno2"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno3"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno4"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno5"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno6"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno7"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno8"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno9"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno10"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno11"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno12"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno13"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno14"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno15"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno16"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno17"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno18"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno19"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_p">Alumno</p>
+            <div class="lista_info_container">
+                <p id="lista_nombre_alumno20"></p>
+                <button name="modify" class="lista_button_modify" onclick="location.href ='index_9.html'">Desincribirse</button>
+            </div>
+        </div>
+        <div class="lista_section_container">
+            <p class="lista_section_button_p">Dale click para eliminar un alumno </p>
+            <button class="lista_section_button" onclick="delete_value()">Eliminar</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Consulta</title>
+</head>
+<body class="consulta_body">
+    <header class="consulta_header">
+        <div class="consulta_container_header">
+            <h1 class="consulta_header_h1" >Bienvenido a la consulta en linea de Lombard</h1>
+            <p class="consulta_header_p">En esta seccion podras ver la informacion de un alumno, modificarla en caso de ser necesario o eliminar al alumno</p>
+            <nav>
+                <ul class="menu_ul_plataforma">
+                    <li class="menu_li"><a class="menu_a" href="index.html">Home</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_1.html">Plantel</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_2.html">Vision</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_3.html">Planes y costos</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_4.html">Plataforma</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img class="consulta_header_img" src="Lombard/lombardescudorojo.jpg" alt="Escudo Lombard">
+    </header>
+    <section class="consulta_section">
+        <nav>
+            <ul class="menu_ul">
+                <li class="menu_li"><a class="menu_a" href="index_4.html">Registrar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_5.html">Consultar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_6.html">Calificaciones</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_7.html">Listas</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_8.html">Inscripciones</a></li>
+            </ul>
+        </nav>
+        <h3>Por favor escribe a continuacion el password de la persona que deseas consultar</h3>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Password</p>
+            <div class="consulta_info_container">
+                <input type="password" id="consulta_input_password_alumno" placeholder="fcokm-12#olt">
+                <button class="consulta_button_modify" onclick="get_value()">Consultar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Nombre</p>
+            <div class="consulta_info_container">
+                <p id="consulta_nombre_alumno"></p>
+                <button name="modify" class="consulta_button_modify" onclick="modify_nombre()">Modificar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Apellido</p>
+            <div class="consulta_info_container">
+                <p id="consulta_apellido_alumno"></p>
+                <button name="modify" class="consulta_button_modify" onclick="modify_apellido()">Modificar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Edad</p>
+            <div class="consulta_info_container">
+                <p id="consulta_edad_alumno"></p>
+                <button name="modify" class="consulta_button_modify" onclick="modify_edad()">Modificar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Tutor</p>
+            <div class="consulta_info_container">
+                <p id="consulta_tutor_alumno"></p>
+                <button name="modify" class="consulta_button_modify" onclick="modify_tutor()">Modificar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Telefono</p>
+            <div class="consulta_info_container">
+                <p id="consulta_telefono_alumno"></p>
+                <button name="modify" class="consulta_button_modify" onclick="modify_telefono()">Modificar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Direccion</p>
+            <div class="consulta_info_container">
+                <p id="consulta_direccion_alumno"></p>
+                <button name="modify" class="consulta_button_modify" onclick="modify_direccion()">Modificar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_p">Alergias</p>
+            <div class="consulta_info_container">
+                <p id="consulta_alergias_alumno"></p>
+                <button name="modify" class="consulta_button_modify" onclick="modify_alergias()">Modificar</button>
+            </div>
+        </div>
+        <div class="consulta_section_container">
+            <p class="consulta_section_button_p">Dale click para eliminar un alumno </p>
+            <button class="consulta_section_button" onclick="delete_value()">Eliminar</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,7053 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 15% 50% 15%;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 3px;
+}
+.container_header_h1{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header_h1{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 2rem;
+}
+.header_img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #8e1f4c;
+    border-radius: 15px;
+}
+nav{
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    height: 6%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu_ul{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 90%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_ul_plataforma{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 90%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_li{
+    margin: 0%;
+    padding: 0%;
+}
+.menu_a{
+    text-decoration: none;
+    color: white;
+}
+.menu_a_plataforma{
+    text-decoration: none;
+    color: white;
+}
+.menu_li_button{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    color: white;
+    background-color: #8e1f4c;
+    border: 0;
+    font-size: 1rem;
+}
+.menu_li_button:hover{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    color: white;
+    background-color: #8e1f4c;
+    border: 0;
+    font-size: 1.1rem;
+}
+section{
+    margin: 3%;
+    padding: 0%;
+    width: 90%;
+    height: 40%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    grid-template-rows: 100%;
+    grid-gap: 3px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container_section_p{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section_p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.section_img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+/*index_1.html*/
+.plantel_section{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 50%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plantel_container_section{
+    margin: 0%;
+    padding: 0%;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    grid-gap: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.plantel_section_img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/*Vision*/
+.vision_section{
+    margin: 3%;
+    padding: 0%;
+    width: 90%;
+    height: 40%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container_vision_section{
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vision_h2{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.vision_p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 1rem;
+}
+/*Precios y Costos*/
+.precios_section{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 50%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.precios_img{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 90%;
+    text-align: center;
+}
+/*Plataforma*/
+.plataforma_body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plataforma_header{
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.plataforma_container_header{
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plataforma_header_h1{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+.plataforma_header_p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.plataforma_header_img{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 80%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.plataforma_section{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 70%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.plataforma_section_container{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.plataforma_section_p{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#nombre_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+#apellido_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+#edad_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+#tutor_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+#telefono_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+#direccion_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+#alergias_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+#password_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    text-align: center;
+}
+.plataforma_section_button_p{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.plataforma_section_button{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 30%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.plataforma_section_button:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 32%;
+    height: 32%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+/*consulta*/
+.consulta_body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.consulta_header{
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.consulta_container_header{
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.consulta_header_h1{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+.consulta_header_p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.consulta_header_img{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 80%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.consulta_section{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 70%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.consulta_section_container{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.consulta_section_p{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.consulta_info_container{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 80%;
+    border: solid white 3px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#consulta_input_password_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.consulta_button_password{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.consulta_button_modify{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.consulta_button_modify:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid white 3px;
+    border-radius: 15px;
+}
+#consulta_nombre_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#consulta_apellido_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#consulta_edad_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#consulta_tutor_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#consulta_telefono_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#consulta_direccion_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#consulta_alergias_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.consulta_section_button_p{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.consulta_section_button{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 40%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.consulta_section_button:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 32%;
+    height: 42%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+
+/*calificaciones*/
+.calificaciones_body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calificaciones_header{
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.calificaciones_container_header{
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calificaciones_header_h1{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+.calificaciones_header_p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.calificaciones_header_img{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 80%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.calificaciones_section{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 70%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.calificaciones_section_container{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.calificaciones_section_p{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.calificaciones_info_container{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 40%;
+    border: solid white 3px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#calificaciones_input_password_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.calificaciones_button_password{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.calificaciones_button_modify{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.calificaciones_button_modify:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid white 3px;
+    border-radius: 15px;
+}
+#calificaciones_nombre_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_español{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_matematicas{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_historia{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_civica_y_etica{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_biologia{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_ingles{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_frances{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_educacion_fisica{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_arte{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_quimica{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_fisica{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#calificaciones_alumno_promedio{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.calificaciones_section_button_p{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.calificaciones_section_button{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 40%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.calificaciones_section_button:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 32%;
+    height: 42%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+
+/*lista*/
+.lista_body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista_header{
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lista_container_header{
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lista_header_h1{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+.lista_header_p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.lista_header_img{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 80%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.lista_section{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 80%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lista_info_container_menu{
+    margin: 0%;
+    padding: 0%;
+    width: 75%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,15%);
+    grid-template-rows: repeat(2,45%);
+    justify-items: center;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.lista_button_menu{
+    margin: 0%;
+    padding: 0%;
+    width: 85%;
+    height: 85%;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.lista_button_menu:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.lista_section_container{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.lista_section_p{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.lista_info_container{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    border: solid white 3px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#lista_input_password_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.lista_button_password{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.lista_button_modify{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.lista_button_modify:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid white 3px;
+    border-radius: 15px;
+}
+#lista_nombre_alumno1{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno2{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno3{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno4{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno5{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno6{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno7{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno8{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno9{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno10{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno11{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno12{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno13{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno14{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno15{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno16{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno17{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno18{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno19{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#lista_nombre_alumno20{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.lista_section_button_p{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.lista_section_button{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 40%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.lista_section_button:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 32%;
+    height: 42%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+
+/*inscripcion*/
+.inscripcion_body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inscripcion_header{
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inscripcion_container_header{
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inscripcion_header_h1{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+.inscripcion_header_p{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.inscripcion_header_img{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 80%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.inscripcion_section{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 70%;
+    background-color: #8e1f4c;
+    border: solid 3px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inscripcion_section_container{
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.inscripcion_section_p{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.inscripcion_info_container{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 30%;
+    border: solid white 3px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#inscripcion_input_password_alumno{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.inscripcion_button_password{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.inscripcion_button_modify{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.inscripcion_button_modify:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid white 3px;
+    border-radius: 15px;
+}
+#inscripcion_nombre_materia1{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia2{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia3{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia4{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia5{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia6{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia7{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia8{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia9{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia10{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#inscripcion_nombre_materia11{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.inscripcion_section_button_p{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.inscripcion_section_button{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 40%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.inscripcion_section_button:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 32%;
+    height: 42%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+/*desinscribirse*/
+.desinscripcion_button_modify{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: .8rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: solid white 3px;
+    border-radius: 5px;
+}
+.desinscripcion_button_modify:hover{
+    margin: 0%;
+    padding: 0%;
+    width: 30%;
+    height: 100%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: solid white 3px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    html{
+        margin: 0%;
+        padding: 0%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: grid;
+        grid-template-columns: 20% 40% 20%;
+        grid-template-rows: 100%;
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 3px;
+    }
+    .container_header_h1{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .header_h1{
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid #8e1f4c;
+        border-radius: 15px;
+    }
+    nav{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 6%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .menu_ul{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_ul_plataforma{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_li{
+        margin: 0%;
+        padding: 0%;
+    }
+    .menu_a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu_li_button{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        color: white;
+        background-color: #8e1f4c;
+        border: 0;
+        font-size: 1rem;
+    }
+    .menu_li_button:hover{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        color: white;
+        background-color: #8e1f4c;
+        border: 0;
+        font-size: 1.1rem;
+    }
+    section{
+        margin: 3%;
+        padding: 0%;
+        width: 90%;
+        height: 50%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .container_section_p{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .section_img{
+        margin: 0%;
+        padding: 0%;
+        width: 80%;
+        height: 60%;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+    /*index_1.html*/
+    .plantel_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 50%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plantel_container_section{
+        margin: 0%;
+        padding: 0%;
+        width: 80%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 45% 45%;
+        grid-gap: 10px;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .plantel_section_img{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    /*Vision*/
+    .vision_section{
+        margin: 3%;
+        padding: 0%;
+        width: 90%;
+        height: 40%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .container_vision_section{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vision_h2{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .vision_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    /*Precios y Costos*/
+    .precios_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 50%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .precios_img{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 90%;
+        text-align: center;
+    }
+    /*Plataforma*/
+    .plataforma_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plataforma_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .plataforma_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plataforma_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .plataforma_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .plataforma_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .plataforma_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .plataforma_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .plataforma_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    #apellido_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    #edad_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    #tutor_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    #telefono_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    #direccion_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    #alergias_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    #password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        text-align: center;
+    }
+    .plataforma_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .plataforma_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 30%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .plataforma_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 32%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    /*consulta*/
+    .consulta_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .consulta_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .consulta_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .consulta_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .consulta_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .consulta_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .consulta_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .consulta_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .consulta_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .consulta_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 60%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #consulta_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .consulta_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #consulta_nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #consulta_apellido_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #consulta_edad_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #consulta_tutor_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #consulta_telefono_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #consulta_direccion_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #consulta_alergias_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .consulta_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .consulta_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*calificaciones*/
+    .calificaciones_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calificaciones_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .calificaciones_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .calificaciones_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .calificaciones_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .calificaciones_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .calificaciones_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .calificaciones_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .calificaciones_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .calificaciones_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 40%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #calificaciones_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .calificaciones_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #calificaciones_nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_español{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_matematicas{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_historia{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_civica_y_etica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_biologia{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_ingles{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_frances{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_educacion_fisica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_arte{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_quimica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_fisica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_promedio{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .calificaciones_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .calificaciones_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*lista*/
+    .lista_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 2500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lista_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 13%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lista_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lista_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .lista_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .lista_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .lista_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 80%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lista_info_container_menu{
+        margin: 0%;
+        padding: 0%;
+        width: 75%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(6,15%);
+        grid-template-rows: repeat(2,45%);
+        justify-items: center;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .lista_button_menu{
+        margin: 0%;
+        padding: 0%;
+        width: 85%;
+        height: 85%;
+        background-color: white;
+        color: black;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .lista_button_menu:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 1.1rem;
+    }
+    .lista_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .lista_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .lista_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #lista_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .lista_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #lista_nombre_alumno1{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno2{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno3{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno4{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno5{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno6{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno7{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno8{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno9{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno10{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno11{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno12{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno13{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno14{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno15{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno16{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno17{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno18{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno19{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno20{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .lista_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .lista_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*inscripcion*/
+    .inscripcion_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inscripcion_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 18%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .inscripcion_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inscripcion_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .inscripcion_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .inscripcion_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .inscripcion_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .inscripcion_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .inscripcion_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .inscripcion_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #inscripcion_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .inscripcion_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #inscripcion_nombre_materia1{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia2{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia3{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia4{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia5{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia6{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia7{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia8{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia9{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia10{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia11{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .inscripcion_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .inscripcion_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+
+    /*desinscripcion*/
+    .desinscripcion_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .desinscripcion_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    html{
+        margin: 0%;
+        padding: 0%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 9px;
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 10%;
+        display: grid;
+        grid-template-columns: 20% 40% 20%;
+        grid-template-rows: 100%;
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 3px;
+    }
+    .container_header_h1{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .header_h1{
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: 3px solid #8e1f4c;
+        border-radius: 15px;
+    }
+    nav{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 6%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .menu_ul{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_ul_plataforma{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: .8rem;
+    }
+    .menu_li{
+        margin: 0%;
+        padding: 0%;
+    }
+    .menu_a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu_li_button{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        color: white;
+        background-color: #8e1f4c;
+        border: 0;
+    }
+    .menu_li_button:hover{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        color: white;
+        background-color: #8e1f4c;
+        border: 0;
+        font-size: .9rem;
+    }
+    section{
+        margin: 3%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .container_section_p{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .section_img{
+        margin: 0%;
+        padding: 0%;
+        width: 80%;
+        height: 60%;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+    /*index_1.html*/
+    .plantel_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plantel_container_section{
+        margin: 0%;
+        padding: 0%;
+        width: 80%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 35% 35%;
+        grid-gap: 40px;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .plantel_section_img{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 15px;
+    }
+    /*Vision*/
+    .vision_section{
+        margin: 3%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container_vision_section{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vision_h2{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .vision_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    /*Precios y Costos*/
+    .precios_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .precios_img{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        text-align: center;
+    }
+    /*Plataforma*/
+    .plataforma_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plataforma_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 12%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .plataforma_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plataforma_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .plataforma_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .plataforma_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .plataforma_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 80%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .plataforma_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: Column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h3{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 5%;
+        font-size: 1.4rem;
+    }
+    .plataforma_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #apellido_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #edad_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #tutor_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #telefono_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #direccion_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #alergias_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    .plataforma_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .plataforma_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 30%;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .plataforma_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 32%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    /*consulta*/
+    .consulta_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .consulta_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 13%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .consulta_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .consulta_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .consulta_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .consulta_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .consulta_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .consulta_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .consulta_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .consulta_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 60%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #consulta_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .consulta_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #consulta_nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #consulta_apellido_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #consulta_edad_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #consulta_tutor_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #consulta_telefono_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #consulta_direccion_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #consulta_alergias_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .consulta_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .consulta_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: 1.4rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*calificaciones*/
+    .calificaciones_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calificaciones_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 13%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .calificaciones_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .calificaciones_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .calificaciones_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .calificaciones_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .calificaciones_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 80%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .calificaciones_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .calificaciones_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .calificaciones_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 40%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #calificaciones_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .calificaciones_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #calificaciones_nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_español{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_matematicas{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_historia{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_civica_y_etica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_biologia{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_ingles{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_frances{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_educacion_fisica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_arte{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_quimica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_fisica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_promedio{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .calificaciones_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .calificaciones_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*lista*/
+    .lista_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 2500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lista_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 8%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lista_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lista_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .lista_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .lista_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .lista_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lista_info_container_menu{
+        margin: 0%;
+        padding: 0%;
+        width: 75%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(6,24%);
+        grid-template-rows: repeat(2,45%);
+        justify-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+    }
+    .lista_button_menu{
+        margin: 0%;
+        padding: 0%;
+        width: 85%;
+        height: 85%;
+        background-color: white;
+        color: black;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 1.2rem;
+    }
+    .lista_button_menu:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 1.2rem;
+    }
+    .lista_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .lista_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .lista_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #lista_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .lista_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #lista_nombre_alumno1{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno2{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno3{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno4{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno5{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno6{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno7{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno8{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno9{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno10{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno11{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno12{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno13{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno14{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno15{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno16{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno17{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno18{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno19{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno20{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .lista_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .lista_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*inscripcion*/
+    .inscripcion_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inscripcion_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 14%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .inscripcion_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inscripcion_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .inscripcion_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .inscripcion_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .inscripcion_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 80%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .inscripcion_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .inscripcion_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .inscripcion_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #inscripcion_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .inscripcion_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #inscripcion_nombre_materia1{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia2{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia3{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia4{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia5{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia6{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia7{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia8{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia9{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia10{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia11{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .inscripcion_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .inscripcion_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*desinscripcion*/
+    .desinscripcion_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .desinscripcion_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+}
+/*-----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 100px) and (max-width: 500px) {
+    html{
+        margin: 0%;
+        padding: 0%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 5px;
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 10%;
+        display: grid;
+        grid-template-columns: 20% 40% 20%;
+        grid-template-rows: 100%;
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 3px;
+    }
+    .container_header_h1{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .header_h1{
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    .header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border: 3px solid #8e1f4c;
+        border-radius: 15px;
+    }
+    nav{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 6%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .menu_ul{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2rem;
+    } 
+    .menu_ul_plataforma{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: .8rem;
+    }
+    .menu_li{
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    .menu_a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu_li_button{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        color: white;
+        background-color: #8e1f4c;
+        font-size: 1.8rem;
+        border: 0;
+    }
+    .menu_li_button:hover{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        color: white;
+        background-color: #8e1f4c;
+        border: 0;
+        font-size: 1.8rem;
+    }
+    section{
+        margin: 3%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .container_section_p{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .section_img{
+        margin: 0%;
+        padding: 0%;
+        width: 80%;
+        height: 60%;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+    /*index_1.html*/
+    .plantel_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plantel_container_section{
+        margin: 0%;
+        padding: 0%;
+        width: 80%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 30% 30%;
+        grid-gap: 40px;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .plantel_section_img{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 15px;
+    }
+
+    /*Vision*/
+    .vision_section{
+        margin: 3%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container_vision_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .vision_h2{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .vision_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    /*Precios y Costos*/
+    .precios_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .precios_img{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 70%;
+        text-align: center;
+    }
+    /*Plataforma*/
+    .plataforma_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plataforma_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 9%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .plataforma_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plataforma_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .plataforma_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .plataforma_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .plataforma_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 80%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .plataforma_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: Column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h3{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 5%;
+        font-size: 2rem;
+    }
+    .plataforma_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #apellido_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #edad_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #tutor_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #telefono_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #direccion_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #alergias_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    #password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
+    .plataforma_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .plataforma_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 30%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .plataforma_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 32%;
+        font-size: 2.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    /*consulta*/
+    .consulta_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .consulta_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 9%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .consulta_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .consulta_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .consulta_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .consulta_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .consulta_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 85%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .consulta_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .consulta_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .consulta_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 60%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #consulta_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .consulta_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 2.2rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #consulta_nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #consulta_apellido_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #consulta_edad_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #consulta_tutor_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #consulta_telefono_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #consulta_direccion_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #consulta_alergias_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .consulta_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .consulta_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .consulta_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 2.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*calificaciones*/
+    .calificaciones_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calificaciones_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 9%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .calificaciones_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .calificaciones_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .calificaciones_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .calificaciones_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .calificaciones_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 80%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .calificaciones_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .calificaciones_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .calificaciones_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 40%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #calificaciones_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .calificaciones_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.6rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #calificaciones_nombre_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_español{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_matematicas{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_historia{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_civica_y_etica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_biologia{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_ingles{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_frances{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_educacion_fisica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_arte{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_quimica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_fisica{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #calificaciones_alumno_promedio{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .calificaciones_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 50%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .calificaciones_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .calificaciones_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 2.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*lista*/
+    .lista_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lista_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 9%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lista_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lista_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .lista_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .lista_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .lista_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 85%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lista_info_container_menu{
+        margin: 0%;
+        padding: 0%;
+        width: 75%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(6,25%);
+        grid-template-rows: repeat(2,45%);
+        justify-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+    }
+    .lista_button_menu{
+        margin: 0%;
+        padding: 0%;
+        width: 85%;
+        height: 85%;
+        background-color: white;
+        color: black;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+    .lista_button_menu:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 90%;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 1.5rem;
+    }
+    .lista_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .lista_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .lista_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 40%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #lista_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: rem;
+        text-align: center;
+    }
+    .lista_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #lista_nombre_alumno1{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno2{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno3{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno4{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno5{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno6{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno7{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno8{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno9{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno10{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno11{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno12{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno13{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno14{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno15{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno16{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno17{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno18{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno19{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #lista_nombre_alumno20{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .lista_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .lista_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .lista_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 2.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*inscripcion*/
+    .inscripcion_body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inscripcion_header{
+        margin: 2%;
+        padding: 0%;
+        width: 90%;
+        height: 9%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .inscripcion_container_header{
+        margin: 0%;
+        padding: 0%;
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inscripcion_header_h1{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .inscripcion_header_p{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .inscripcion_header_img{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 80%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    .inscripcion_section{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 80%;
+        background-color: #8e1f4c;
+        border: solid 3px white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .inscripcion_section_container{
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .inscripcion_section_p{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .inscripcion_info_container{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 30%;
+        border: solid white 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #inscripcion_input_password_alumno{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .inscripcion_button_password{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: .8rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+    #inscripcion_nombre_materia1{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia2{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia3{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia4{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia5{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia6{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia7{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia8{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia9{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia10{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #inscripcion_nombre_materia11{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .inscripcion_section_button_p{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        height: 20%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .inscripcion_section_button{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 40%;
+        font-size: 2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .inscripcion_section_button:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 32%;
+        height: 42%;
+        font-size: 2.2rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    
+    /*desinscripcion*/
+    .desinscripcion_button_modify{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.6rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border: solid white 3px;
+        border-radius: 5px;
+    }
+    .desinscripcion_button_modify:hover{
+        margin: 0%;
+        padding: 0%;
+        width: 30%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: solid white 3px;
+        border-radius: 15px;
+    }
+}

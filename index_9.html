@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Inscripcion</title>
+</head>
+<body class="inscripcion_body">
+    <header class="inscripcion_header">
+        <div class="inscripcion_container_header">
+            <h1 class="inscripcion_header_h1" >Bienvenido a la plataforma en linea de Lombard</h1>
+            <p class="inscripcion_header_p">En esta seccion podras inscribirte a las materias que se ofrecen en el plantel</p>
+            <nav>
+                <ul class="menu_ul_plataforma">
+                    <li class="menu_li"><a class="menu_a" href="index.html">Home</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_1.html">Plantel</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_2.html">Vision</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_3.html">Planes y costos</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_4.html">Plataforma</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img class="inscripcion_header_img" src="Lombard/lombardescudoblanco.jpg" alt="Escudo Lombard">
+    </header>
+    <section class="inscripcion_section">
+        <nav>
+            <ul class="menu_ul">
+                <li class="menu_li"><a class="menu_a" href="index_4.html">Registrar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_5.html">Consultar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_6.html">Calificaciones</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_7.html">Listas</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_8.html">Inscripciones</a></li>
+            </ul>
+        </nav>
+        <h3>Dale clik al boton consultar para ver la lista completa de materias a las que te puedes desinscribir del plantel</h3>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Lista de materias</p>
+            <div class="inscripcion_info_container">
+                <button class="inscripcion_button_modify" onclick="print_materias()">Consultar</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia1"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_esp()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia2"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_mat()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia3"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_his()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia4"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_civ_y_eti()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia5"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_bio()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia6"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_ing()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia7"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_fran()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia8"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_edu_fis()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia9"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_art()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia10"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_quim()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_p">Materia</p>
+            <div class="inscripcion_info_container">
+                <p id="inscripcion_nombre_materia11"></p>
+                <button name="modify" class="desinscripcion_button_modify" onclick="desinscribirse_fis()">Desinscribirse</button>
+            </div>
+        </div>
+        <div class="inscripcion_section_container">
+            <p class="inscripcion_section_button_p">Dale click para eliminar un alumno </p>
+            <button class="inscripcion_section_button" onclick="delete_value()">Eliminar</button>
+        </div>
+    </section>
+</body>
+</html>

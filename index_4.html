@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Plataforma</title>
+</head>
+<body class="plataforma_body">
+    <header class="plataforma_header">
+        <div class="plataforma_container_header">
+            <h1 class="plataforma_header_h1" >Bienvenido a la plataforma en linea de Lombard</h1>
+            <p class="plataforma_header_p">En esta plataforma podras registrarte como alumno, inscribirte o darte de baja de las materias que desees, ver tus calificaciones y modificar tus datos</p>
+            <nav>
+                <ul class="menu_ul_plataforma">
+                    <li class="menu_li"><a class="menu_a" href="index.html">Home</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_1.html">Plantel</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_2.html">Vision</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_3.html">Planes y costos</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_4.html">Plataforma</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img class="plataforma_header_img" src="Lombard/lombardescudoblanco.jpg" alt="Escudo Lombard">
+    </header>
+    <section class="plataforma_section">
+        <nav>
+            <ul class="menu_ul">
+                <li class="menu_li"><a class="menu_a" href="index_4.html">Registrar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_5.html">Consultar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_6.html">Calificaciones</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_7.html">Listas</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_8.html">Inscripciones</a></li>
+            </ul>
+        </nav>
+        <h3>Por favor llena tus datos en la plataforma para inscribirte o pulsa en consultar si ya estas inscrito</h3>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Nombre(s)</p>
+            <input type="text" id="nombre_alumno" placeholder="Jhon">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Apellidos</p>
+            <input type="text" id="apellido_alumno" placeholder="Hancock">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Edad</p>
+            <input type="number" id="edad_alumno" placeholder="12">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Tutor</p>
+            <input type="text" id="tutor_alumno" placeholder="John Hanckock">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Telefono</p>
+            <input type="phone" id="telefono_alumno" placeholder="3322445566">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Direccion</p>
+            <input type="text" id="direccion_alumno" placeholder="Av. Poniente #45 Int 1 Col Americana Guadalajara Jalisco">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Alergias</p>
+            <input type="text" id="alergias_alumno" placeholder="Penicicila">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_p">Password</p>
+            <input type="password" id="password_alumno" placeholder="jlo9802-14?$#">
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_button_p">Dale click para enviar los datos a la base de datos</p>
+            <button class="plataforma_section_button" onclick="fill_table()">Enviar</button>
+        </div>
+        <div class="plataforma_section_container">
+            <p class="plataforma_section_button_p">Dale click para eliminar un alumno </p>
+            <button class="plataforma_section_button" onclick="delete_value()">Eliminar</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Calificaciones</title>
+</head>
+<body class="calificaciones_body">
+    <header class="calificaciones_header">
+        <div class="calificaciones_container_header">
+            <h1 class="calificaciones_header_h1" >Bienvenido ala consulta de calificaciones en linea de Lombard</h1>
+            <p class="calificaciones_header_p">En esta seccion podras ver tus calificaciones si eres un alumno y modificar las calificaciones si eres un maestro</p>
+            <nav>
+                <ul class="menu_ul_plataforma">
+                    <li class="menu_li"><a class="menu_a" href="index.html">Home</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_1.html">Plantel</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_2.html">Vision</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_3.html">Planes y costos</a></li>
+                    <li class="menu_li"><a class="menu_a" href="index_4.html">Plataforma</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img class="calificaciones_header_img" src="Lombard/lombardescudoblanco.jpg" alt="Escudo Lombard">
+    </header>
+    <section class="calificaciones_section">
+        <nav>
+            <ul class="menu_ul">
+                <li class="menu_li"><a class="menu_a" href="index_4.html">Registrar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_5.html">Consultar</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_6.html">Calificaciones</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_7.html">Listas</a></li>
+                <li class="menu_li"><a class="menu_a" href="index_8.html">Inscripciones</a></li>
+            </ul>
+        </nav>
+        <h3>Por favor escribe a continuacion el password de la persona que deseas consultar sus calificaciones</h3>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Password</p>
+            <div class="calificaciones_info_container">
+                <input type="password" id="calificaciones_input_password_alumno" placeholder="fcokm-12#olt">
+                <button class="calificaciones_button_modify" onclick="get_value_calificaciones()">Consultar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Nombre</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_nombre_alumno"></p>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Español</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_español"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_español()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Matematicas</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_matematicas"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_matematicas()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Historia</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_historia"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_historia()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Civica y Etica</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_civica_y_etica"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_civica_y_etica()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Biologia</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_biologia"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_biologia()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Ingles</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_ingles"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_ingles()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Frances</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_frances"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_frances()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Educacion Fisica</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_educacion_fisica"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_educacion_fisica()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Arte</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_arte"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_arte()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Quimica</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_quimica"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_quimica()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Fisica</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_fisica"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="modify_fisica()">Modificar</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_p">Promedio</p>
+            <div class="calificaciones_info_container">
+                <p id="calificaciones_alumno_promedio"></p>
+                <button name="modify" class="calificaciones_button_modify" onclick="promedio()">Promedio</button>
+            </div>
+        </div>
+        <div class="calificaciones_section_container">
+            <p class="calificaciones_section_button_p">Dale click para eliminar un alumno </p>
+            <button class="calificaciones_section_button" onclick="delete_value()">Eliminar</button>
+        </div>
+    </section>
+    
+</body>
+</html>
